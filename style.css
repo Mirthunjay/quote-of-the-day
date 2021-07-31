@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Quicksand&display=swap');
+
+:root{
+    --pink-lace: #f5cce8;
+    --plum-web: #ec9DED;
+    --middle-purple: #c88087;
+    --pealy-purple: #9f6ba0;
+    --dark-purple: #4a2040;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: size 1.2em;
+    background-color: var(--dark-purple);
+    padding:2rem;
+}
+
+.outer-box {
+    background-color: #fff;
+    border-radius: 15px;
+    padding:2em 2em;
+    height: auto;
+    line-height: 1.6em;
+    max-width: 480px;
+}
+
+h2.title {
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+h6.category {
+        font-size: 0.9em;
+        margin: 0.7em;
+    }
+
+button.new-quote {
+    border: none;
+    background-color: var(--dark-purple);
+    color: #ffffffe8;
+    padding: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h5.author-name {
+    text-align: right;
+    font-family: 'Bad Script', cursive;
+    width: 100%;
+    margin: 1em -5em;
+}
+
+
